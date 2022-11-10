@@ -1,2 +1,10 @@
+*{
+    align-self: auto;
+    padding: 5px;
+    margin: auto;
+    background-color: #f8fffe;
+    max-width: 600px;
+   
+}
 
 /* Your CSS Code here. */
