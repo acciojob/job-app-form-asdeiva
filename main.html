@@ -4,39 +4,46 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Job app form</title>
+	
 </head>
 
 <body>
 	<h2 class="h">Job app form</h2>
-	<form>
-		<label for="name">Name*</label>
-		<input type="text" id="name" required><br><br>
-		<label for="email">Email*</label>
-		<input type="email" id="email" required><br><br>
-		<label for="gender">Gender*</label>
-		<input type="radio" name="gender" value="male"> Male
-		<input type="radio" name="gender" value="female"> Female <br><br>
-		<label for="laptop">Laptop Brands</label>
+	<div>
+		<form action="#" method="get" target="_blank">
+		<div>
+			<div>
+			<label for="name">Name*</label>
+			<input type="text" id="name" required>
+		</div>
+		<div><label for="email">Email*</label>
+			<input type="email" id="email" required></div>
+		<div><label for="gender">Gender*</label>
+			<input type="radio" name="gender" value="male"> <label for="male">Male</label>
+			<input type="radio" name="gender" value="female"> <label for="female">Female</label>
+		</div>
+		<div><label for="laptop">Laptop Brands</label>
 		<select id="laptop">
 		<option value="Apple">Apple</option>
 		<option value="Asus">Asus</option>
 		<option value="HP">HP</option>
-		</select><br><br>
-		<label for="age">Age*</label>
-		<input type="number" id="age" required> <br><br>
-		<label for="dob">DOB*</label>
-		<input type="date" id="dob" required> <br><br>
-		<label for="password">password*</label>
-		<input type="password" id="password" required><br><br>
-		<input type="button" id="submit" value="Submit" >
-
+		</select></div>
+		<div><label for="age">Age*</label>
+		<input type="number" id="age" required></div>
+		<div><label for="dob">DOB*</label>
+		<input type="date" id="dob" required></div>
+		<div><label for="password">password*</label>
+		<input type="password" id="password" required>
+	</div>
+		<div><input type="submit" name="submit" id="submit"></div>
+		<div>
+			<label for="portfolio">Add your portfolio:</label>
+		<input type="url" id="portfolio" name="portfolio">
+	</div>
+	</div>
 
 	</form>
-	
+	</div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
